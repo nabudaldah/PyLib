@@ -1,0 +1,94 @@
+
+html, body {
+    background-color: #ecf0f5;
+    margin-bottom: 4em;
+    font-size: small;
+}
+
+nav.navbar {
+    background-color: #3c8dbc;
+    color: white;
+}
+
+div.card {
+    border-top-width: 4px;
+    border-top-color: blue;
+    background-color: white;
+}
+
+div.menu-card {
+    border-top-color: orange;
+}
+
+.display-4 {
+    font-size: 2.5rem;
+    color: black;
+}
+
+table.table {
+    white-space: nowrap;
+    font-size: small;
+    border: 1px solid #ccc;
+}
+
+div.table-scroll {
+    overflow: scroll;
+}
+
+div.table-fixed table {
+    table-layout: fixed;
+    white-space: nowrap;
+    text-align: right;
+}
+
+.table th {
+    background-color: #eee;    
+}
+
+.table td, .table th {
+    padding: 1px;
+    padding-right: 5px;
+    border: 1px solid #ccc;
+}
+
+/* make datatable fit boxes */
+.react-grid-Container {
+    margin: 14px;
+}
+
+.react-grid-Grid {
+    font-size: small;
+}
+
+/* dash callback loading div */
+._dash-loading-callback1 {
+    position: absolute;
+    width: 6em;
+    height: 2em;
+    background-color: red;
+    top: 1em;
+    right: 1em;
+    border-radius: 1em;
+    border: 2px solid white;
+}
+
+._dash-loading-callback1::after {
+    content: "loading";
+    font-size: small;
+    padding: 1em;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+/* dash callback loading div */
+._dash-loading-callback {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.25);
+  text-align: center;
+  cursor: progress;
+}
